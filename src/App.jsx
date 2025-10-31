@@ -12,9 +12,12 @@ function App() {
                    bg-gradient-to-r from-green-400/80 via-lime-200/60 to-yellow-100/50
                    backdrop-blur-lg border border-green-200/30 rounded-full shadow-lg 
                    px-8 py-3 flex justify-between items-center max-w-[1200px] w-full mx-auto">
-  <div className="font-bold text-green-800 text-xl cursor-pointer hover:scale-105 transition-transform">
+  <Link 
+    to="/" 
+    className="font-bold text-green-800 text-xl cursor-pointer hover:scale-105 transition-transform"
+  >
     GREENLENS
-  </div>
+  </Link>
   <nav className="flex gap-6">
     <Link 
       to="/" 
