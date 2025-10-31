@@ -20,13 +20,13 @@ function App() {
       to="/" 
       className="font-semibold text-green-700 hover:text-green-900 transition-colors"
     >
-      Redeem
+      Rewards
     </Link>
     <Link 
       to="/submit" 
       className="font-semibold text-green-700 hover:text-green-900 transition-colors"
     >
-      Submit
+      Redeem
     </Link>
   </nav>
 </header>
